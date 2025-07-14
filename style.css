@@ -27,6 +27,8 @@ header {
 #refresh {
     cursor: pointer;
     color: blue;
+    display: flex;
+    align-items: center;
 }
 
 i {
