@@ -28,5 +28,5 @@ function changeGrids() {
         sixBySixGrid.style.display = "grid";
         sixBySixButton.innerHTML = "5x5";
     }
-    refreshGrid(); // Reset colors when switching grids
+    //refreshGrid(); // Reset colors when switching grids
 }
