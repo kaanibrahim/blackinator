@@ -8,6 +8,12 @@
 <body>
     <!-- JAVASCRIPT -->
     <script src="functions.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        var currentYear = new Date().getFullYear();
+        document.getElementById('currentYear').textContent = currentYear;
+        });
+    </script>
     <!-- FONTAWESOME -->
     <script src="https://kit.fontawesome.com/9daa2eb6d3.js" crossorigin="anonymous"></script>
     <header>
@@ -87,6 +93,6 @@
         <div class="grid-item" onClick = "changeColour(this)"></div>
     </div>
     </main>
-    <footer><p>Copyright © 2025 <a href="https://kaanibrahim.com/" target="_blank">Kaan Ibrahim</a></p></footer>
+    <footer><p>Copyright © <span id="currentYear"></span> <a href="https://kaanibrahim.com/" target="_blank">Kaan Ibrahim</a></p></footer>
 </body>
 </html>
